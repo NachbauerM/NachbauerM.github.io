@@ -90,7 +90,7 @@ For more events think of Venn diagrams:
 
 P(A$\cup$B$\cup$C) = P(A) + P(B) + P(C)- P(A$\cap$B)-P(A$\cap$C) - P(B$\cap$C) + P(A$\cap$B$\cap$C)
 
-![Venn%20Diagramm%201.png](attachment:Venn%20Diagramm%201.png)
+![](/images/name/Venn%20Diagramm%201.png)
 
 
 #### Probabilities to do:
