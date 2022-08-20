@@ -90,7 +90,7 @@ For more events think of Venn diagrams:
 
 $P(A \cup B \cup C)$ = P(A) + P(B) + P(C)- $P(A \cap B)-$P(A \cap C) - $P(B \cap C)$ + $P(A \cap B \cap C)$
 
-![Venn_Diagram](/images/Venn Diagramm 1.png)
+![Venn_Diagram](/images/Venn_Diagramm_1.png)
 
 
 #### Probabilities to do:
@@ -149,7 +149,7 @@ ${n \choose 1}$ = ${n \choose n-1}$ (e.g. ${6 \choose 1}$ = 6!/((6-1)!*1!) = 6
 
 Example: I have 15 red socks and 10 blue socks, I pick seven without replacement. What is the probability to pick tree red socks (and 4 blues):
 
-P(4r) = \frac{{15 \choose 3} \cdot {10 \choose 4}}{25\choose 7}$
+P(4r) = \frac{15 \choose 3} \cdot {10 \choose 4}{25\choose 7}
 
 ### Binomial Distributions
 
