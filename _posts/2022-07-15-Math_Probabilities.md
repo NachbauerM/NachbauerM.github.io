@@ -77,18 +77,18 @@ Function that maps an event A to an interval [0,1] = P(A).
 
 Axioms:
 1. O $\leq$ P(A) $\geq$ 1
-2. P($\Omega$) = 1
-3. If A and B are disjoint (A $\cap$ B = $\theta$) then P(A$\cup$B) = P(A) + P(B).
-=> P($\complement(A)$) = 1 - P(A)
+2. $P(\Omega)$ = 1
+3. If A and B are disjoint $(A \cap B = \theta)$ then $P(A \cup B)$ = P(A) + P(B).
+=> $P(\complement(A))$ = 1 - P(A)
 4. Suppose A1, A2, ... is a sequence of disjoint events: Then
-P($\bigcup_{i=1}^\infty$) = $\sum_{i=1}^\infty$P(Ai).
+$P(\bigcup_{i=1}^\infty)$ = $\sum_{i=1}^\infty$ P(Ai).
 
 
 P(A$\cup$B) = P(A) + P(B) - P(A$\cap$B) = Venn Diagram (avoid double counting). Can be turned around depending on the data we have: P(A) = P(A$\cup$B)-P(B)+ P(A$\cap$B)
 
 For more events think of Venn diagrams:
 
-P(A$\cup$B$\cup$C) = P(A) + P(B) + P(C)- P(A$\cap$B)-P(A$\cap$C) - P(B$\cap$C) + P(A$\cap$B$\cap$C)
+$P(A \cup B \cup C)$ = P(A) + P(B) + P(C)- $P(A \cap B)-$P(A \cap C) - $P(B \cap C)$ + $P(A \cap B \cap C)$
 
 ![](/images/name/Venn%20Diagramm%201.png)
 
