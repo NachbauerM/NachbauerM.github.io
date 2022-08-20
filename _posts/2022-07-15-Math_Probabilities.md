@@ -90,7 +90,7 @@ For more events think of Venn diagrams:
 
 $P(A \cup B \cup C)$ = P(A) + P(B) + P(C)- $P(A \cap B)-$P(A \cap C) - $P(B \cap C)$ + $P(A \cap B \cap C)$
 
-![](/images/name/Venn%20Diagramm%201.png)
+![Venn_Diagram](/images/Venn Diagramm 1.png)
 
 
 #### Probabilities to do:
@@ -231,7 +231,7 @@ P(A|B) = $\frac{|A \cap B|}{|B|}$ = P(3)/P(B) = $\frac{2/36}{1/12}$ = 2/3
 
 Any unrelated events are independent. They are independent iff (only if):
 
-P($A\cap B$) = P(A)P(B)
+$P(A\cap B)$ = P(A)P(B)
 
 Events don`t have to be physically unrelated to be independent.
 
