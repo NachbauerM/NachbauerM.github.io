@@ -84,7 +84,7 @@ Axioms:
 $P(\bigcup_{i=1}^\infty)$ = $\sum_{i=1}^\infty$ P(Ai).
 
 
-P(A$\cup$B) = P(A) + P(B) - P(A$\cap$B) = Venn Diagram (avoid double counting). Can be turned around depending on the data we have: P(A) = P(A$\cup$B)-P(B)+ P(A$\cap$B)
+$P(A \cup B)$ = P(A) + P(B) - $P(A \cap B)$ = Venn Diagram (avoid double counting). Can be turned around depending on the data we have: P(A) = $P(A \cup B)§-P(B)+ $P(A \cap B)
 
 For more events think of Venn diagrams:
 
@@ -105,7 +105,7 @@ $P(A \cup B \cup C)$ = P(A) + P(B) + P(C)- $P(A \cap B)-$P(A \cap C) - $P(B \cap
 ($\Omega$) = {w1, w2,.... wn}
 Event: A $\subset$ $\Omega$. P(A) = Sum of probabilities of all elements in A.
 
-Simple Sample Space (SSS) is finite and all outcomes are equally likely: P(wn)= 1/|$\Omega$|. => P(A) = (Numbers of elements in A)/(number of elements in $\Omega$).
+Simple Sample Space (SSS) is finite and all outcomes are equally likely: P(wn)= $1/|\Omega|$. => P(A) = (Numbers of elements in A)/(number of elements in $\Omega$).
 
 ### Examples: 
 Toss a die. A = {1,2,4,6}, probability of each outcome is 1/6. sp P(A) = 4/6
