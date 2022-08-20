@@ -84,7 +84,7 @@ Axioms:
 $P(\bigcup_{i=1}^\infty)$ = $\sum_{i=1}^\infty$ P(Ai).
 
 
-$P(A \cup B)$ = P(A) + P(B) - $P(A \cap B)$ = Venn Diagram (avoid double counting). Can be turned around depending on the data we have: P(A) = $P(A \cup B)§-P(B)+ $P(A \cap B)
+$P(A \cup B)$ = P(A) + P(B) - $P(A \cap B)$ = Venn Diagram (avoid double counting). Can be turned around depending on the data we have: P(A) = $P(A \cup B)$-P(B)+ $P(A \cap B)$
 
 For more events think of Venn diagrams:
 
@@ -168,8 +168,7 @@ we have $a_i$ objects, where i = 1,2,...,c (c categories). $A = \sum_{i=1}^{c}a_
 
 I have 37 socks, 15 red, 12 green, 10 blue. I pick 9 randomly without replacement. What is the probability I get exactly 3 red, 4 green and 2 blue socks?
 
-P(3r, 4g, 2b) =$\frac{{15 \choose 3} \cdot {12\choose 4}\cdot {10\choose 2}}{37\choose 9}$
-
+P(3r, 4g, 2b) =$\frac{{15 \choose 3} \cdot {12 \choose 4} \cdot {10 \choose 2}}{37 \choose 9}$
 
 ### With replacement (multinomial distribution)
 Generalization of binomial distribution:
@@ -241,7 +240,7 @@ Toss a die. A = {2,4,6} and B = {1,2,3,4}. Then $A \cap B$ = {2,4}, P(A) = 1/2, 
 
 Independence is not the same as disjointness. If A and B are disjoint and A occurs, I know that B cannot occur. So A and B cant be independent!
 
-Proof: A,B are disjoint $A\cap B$ = $\theta$. Then P($A \cap B$) = 0 < P(A)*P(B)
+Proof: A,B are disjoint $A\cap B$ = $\theta$. Then $P(A \cap B)$ = 0 < P(A)*P(B)
 
 Independece for more than two events: a. independent from one another and b. all pairs need to be independent too!
 
