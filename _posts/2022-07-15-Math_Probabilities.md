@@ -168,7 +168,7 @@ we have $a_i$ objects, where i = 1,2,...,c (c categories). $A = \sum_{i=1}^{c}a_
 
 I have 37 socks, 15 red, 12 green, 10 blue. I pick 9 randomly without replacement. What is the probability I get exactly 3 red, 4 green and 2 blue socks?
 
-P(3r, 4g, 2b) =$\frac{{15 \choose 3} \cdot {12 \choose 4} \cdot {10 \choose 2}}{37 \choose 9}$
+tbd.
 
 ### With replacement (multinomial distribution)
 Generalization of binomial distribution:
