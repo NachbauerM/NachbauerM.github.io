@@ -1,4 +1,4 @@
-# Learning Probabilities (Intro)
+# Math: Learning Probabilities (Intro)
 
 For the longest time I was under the impression that probabilities is all about throwing dice, different colour marbles, and goats beyond doors. After reading Nate Silvers´ The Signal and the Noise and getting into contact with basic statistics at work, I got a glimpse of the magic of probabilities and statistics. So let´s learn a few basics.
 
