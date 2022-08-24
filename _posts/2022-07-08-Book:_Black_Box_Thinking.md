@@ -1,4 +1,4 @@
-# My learnings from the book: "Black Box Thinking" by Matthew Syed
+# Book: "Black Box Thinking" by Matthew Syed
 
 This book is about decision making and learning in complex circumstances.
 
