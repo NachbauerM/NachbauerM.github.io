@@ -288,3 +288,4 @@ In the numerator I have the probability that it is box A and the probability tha
 In the denomintor I have all possible partitions for the sock beeing red (i.e. that it is from box A and B) and each of those probabilities.
 
 The proability of Box A went from 0.5 (prior) to 1/3 (posterior). It was influecend by the information received. P(A) and P(B) add up to 1 (partition).
+
