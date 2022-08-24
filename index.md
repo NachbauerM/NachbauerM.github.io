@@ -1,3 +1,3 @@
 Hello and welcome to this blog.
 
-## Learning Stuff
+## Learning New Stuff
