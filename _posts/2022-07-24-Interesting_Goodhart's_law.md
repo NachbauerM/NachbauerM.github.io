@@ -1,4 +1,4 @@
-# Goodhart's Law
+# Interesting: Goodhart's Law
 
 According to Wikipedia: https://en.wikipedia.org/wiki/Goodhart%27s_law
 
