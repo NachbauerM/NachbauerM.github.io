@@ -18,17 +18,17 @@ Next are some prerequisites and definitions.
 4. $\theta$ is an empty set (no elements at all).
 Examples:
 
-B = {x $\|$ -1 < x < 1} is a set of all x bigger than -1 and smaller than 1.
+B = {x $|$ -1 < x < 1} is a set of all x bigger than -1 and smaller than 1.
 
 5. If all elements of C are also in A then C is a subset of A (C $\subset$ A). Any set is a subset of itself and the null set is also a subset of every set: $\theta \subset A \subset A \subset \Omega$ 
 
-Cardinality of a set is the number of elements in the set $\|$ S $\|$.
+Cardinality of a set is the number of elements in the set $|$ S $|$.
 
-Complement of a Set X is a set that contains all elements not in X: $\complement(X)$ = {x $\|$ x $\notin$ X}.
+Complement of a Set X is a set that contains all elements not in X: $\complement(X)$ = {x $|$ x $\notin$ X}.
 
-Intersection (and) of X and Y is a set of all elements in both sets X$\cap$Y = {z $\|$ z $\in$ X and z $\in$ Y}. If X$\cap$Y = $\theta$ than X and Y are disjoint or mutually exclusive.
+Intersection (and) of X and Y is a set of all elements in both sets X$\cap$Y = {z $|$ z $\in$ X and z $\in$ Y}. If X$\cap$Y = $\theta$ than X and Y are disjoint or mutually exclusive.
 
-Union (or) of X and Y is a set of all elements eigther in X or Y or both X $\cup$ Y = {z $\|$ z $\in$ X and or z $\in$ Y}.
+Union (or) of X and Y is a set of all elements eigther in X or Y or both X $\cup$ Y = {z $|$ z $\in$ X and or z $\in$ Y}.
 
 Minus operation X - Y remove everything from X that is in Y. (= X $\cap$ Complement(Y)). 
 
@@ -94,9 +94,9 @@ $P(A \cup B \cup C)$ = P(A) + P(B) + P(C)- $P(A \cap B)-$P(A \cap C) - $P(B \cap
 
 
 #### Probabilities to do:
-1. Define Sample Space and $\|$ Samples Space $\|$
-2. Define Event and $\|$ Event $\|$ (number of possibilities for that event
-3. P(Event) = $\|$ Event $\|$ : $\|$ Samples Space $\|$
+1. Define Sample Space and $|$ Samples Space $|$
+2. Define Event and $|$ Event $|$ (number of possibilities for that event
+3. P(Event) = $|$ Event $|$ : $|$ Samples Space $|$
 4. Sometimes we want $ Complement(Event) = 1 - P(Event)
 
 
@@ -206,7 +206,7 @@ Sometimes we want to update a probability of an event as we get more information
 
 ## Conditional Probability
 
-P(A $\|$ B) = $\frac{|A \cap B|}{|B|}$ = $\frac{P(A \cap B)}{P(B)}$ = The probability of event A given event B.
+P(A $|$ B) = $\frac{|A \cap B|}{|B|}$ = $\frac{P(A \cap B)}{P(B)}$ = The probability of event A given event B.
 
 If A and B are disjoint, then P(A $\|$ B) = 0 (if B, there is no chance that A occurs).
 
@@ -231,7 +231,7 @@ P(A $\|$ B) = $\frac{|A \cap B|}{|B|}$ = P(3)/P(B) = $\frac{2/36}{1/12}$ = 2/3
 
 Any unrelated events are independent. They are independent iff (only if):
 
-$P(A\cap B)$ = P(A)P(B)
+$P(A \cap B)$ = P(A)P(B)
 
 Events don`t have to be physically unrelated to be independent.
 
@@ -240,7 +240,7 @@ Toss a die. A = {2,4,6} and B = {1,2,3,4}. Then $A \cap B$ = {2,4}, P(A) = 1/2, 
 
 Independence is not the same as disjointness. If A and B are disjoint and A occurs, I know that B cannot occur. So A and B cant be independent!
 
-Proof: A,B are disjoint $A\cap B$ = $\theta$. Then $P(A \cap B)$ = 0 < P(A)*P(B)
+Proof: A,B are disjoint $A \cap B$ = $\theta$. Then $P(A \cap B)$ = 0 < P(A)*P(B)
 
 Independece for more than two events: a. independent from one another and b. all pairs need to be independent too!
 
@@ -265,13 +265,13 @@ If we have a partition (total sample space divided into disjoint subsets), the p
 
 P(Ai)´s are called prior probabilities (before B)
 
-P(Ai $\|$ B)´s are called posterior probabilities (after B). They add up to 1.
+P(Ai $|$ B)´s are called posterior probabilities (after B). They add up to 1.
 
 
 #### Example
 10 students from University A who have a 95% chance of passing an exam and 20 Students from University B who have a 50% chance of passing the exame. Pick a student randome, what is the probability he/she passes?
 
-P(passes) = P(A)P(passes$\|$ A) + P(B)P(passes $\|$ G) = (1/3)(0.95)+ (2/3)(0.5)
+P(passes) = P(A)P(passes $|$ A) + P(B)P(passes $|$ G) = (1/3)(0.95)+ (2/3)(0.5)
 
 #### Example 2
 
@@ -279,7 +279,7 @@ Two boxes of socks. Box A has one red and one blue sock. Box B has two red socks
 
 R is the event that a red sock was drawn. The relevant partition is {A, B}!!
 
-P(A $\|$ R) = $\frac{P(A) P(R|A)}{P(A)P(R|A) + P(B)P(R|B)}$
+P(A $|$ R) = $\frac{P(A) P(R|A)}{P(A)P(R|A) + P(B)P(R|B)}$
 
 = $\frac{(0.5)(0.5)}{(0.5)(0.5) + (0.5)(1.0)}$ = 1/3
 
