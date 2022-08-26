@@ -4,7 +4,7 @@ For the longest time I was under the impression that probabilities is all about 
 
 ## Learning method
 
-For this learning challenge I decided to try working through a textbook. I didn’t want to dive too deep into probability theory and decided to go with a statistics book: A First Course in Probability and Statistics, by Prof. Dave Goldsman (the book and additional materials can be found here: https://www2.isye.gatech.edu/~sman/courses/6739/. 
+For this learning challenge I decided to try working through a textbook. I didn’t want to dive too deep into probability theory and decided to go with a statistics book: A First Course in Probability and Statistics, by Prof. Dave Goldsman (the book and additional materials can be found here: ["ISYE 6739"](https://www2.isye.gatech.edu/~sman/courses/6739/). 
 
 ## The Basics
 The book starts with a definition: "Probability, roughly speaking, describes the random variation in systems, while Statistics uses sample data to draw general conclusions about a population."
@@ -16,19 +16,16 @@ Next are some prerequisites and definitions.
 2. $\in$ means set membership. E.g. x $\in$ A means x is an element of A.
 3. $\Omega$ is the universal set (a set containing all possible elements).
 4. $\theta$ is an empty set (no elements at all).
-Examples:
-
-B = {x $|$ -1 < x < 1} is a set of all x bigger than -1 and smaller than 1.
-
+Examples: B = {x $|$ -1 < x < 1} is a set of all x bigger than -1 and smaller than 1.
 5. If all elements of C are also in A then C is a subset of A (C $\subset$ A). Any set is a subset of itself and the null set is also a subset of every set: $\theta \subset A \subset A \subset \Omega$ 
 
-Cardinality of a set is the number of elements in the set $|$ S $|$.
+Cardinality of a set is the number of elements in the set $| S |$.
 
 Complement of a Set X is a set that contains all elements not in X: $\complement(X)$ = {x $|$ x $\notin$ X}.
 
-Intersection (and) of X and Y is a set of all elements in both sets X$\cap$Y = {z $|$ z $\in$ X and z $\in$ Y}. If X$\cap$Y = $\theta$ than X and Y are disjoint or mutually exclusive.
+Intersection (and) of X and Y is a set of all elements in both sets X $\cap$ Y = ${z | z \in X and z \in Y}$. If X $\cap$ Y = $\theta$ than X and Y are disjoint or mutually exclusive.
 
-Union (or) of X and Y is a set of all elements eigther in X or Y or both X $\cup$ Y = {z $|$ z $\in$ X and or z $\in$ Y}.
+Union (or) of X and Y is a set of all elements eigther in X or Y or both X $\cup$ Y = ${z | z \in X and or z \in Y}$.
 
 Minus operation X - Y remove everything from X that is in Y. (= X $\cap$ Complement(Y)). 
 
