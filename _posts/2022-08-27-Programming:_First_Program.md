@@ -152,7 +152,7 @@ def save_as_docx(path):
     doc.Close(False)
 ```
 
-Next came one of the bigger challenges. Since I was looking for specific words inside the documents as well as their position in the different chapters, I need to define some Regex. This was done mostly by trial and error. I´m still not even really clear about the basics. And I know the application could have been much better if this was done right...
+Next came one of the bigger challenges. Since I was looking for specific words inside the documents as well as their position in the different chapters, I need to define some Regex. This was done mostly by trial and error. I´m still not even really clear about the basics. And I know the application could have been much better if this was done right... Documents and search terms are in German.
 
 ```python
 #Find the basic information about each project in the files.
@@ -167,7 +167,7 @@ def fun_project_number(project_number, string):
         return "error"
 
 roject_name = r"TZ(.+?)(PN|PN:|PN :|Projektnummer|Projektnummer:|Projektnummer :)"
-project_name_ÜH = r"((.+?)(PN|PN:|PN :|Projektnummer|Projektnummer:|Projektnummer :))" #Just a #different format
+project_name_ÜH = r"((.+?)(PN|PN:|PN :|Projektnummer|Projektnummer:|Projektnummer :))" #Just a different format
 
 #Get Project name:
 def fun_project_name(project_name, string):
@@ -360,7 +360,7 @@ def program():
 
 ```
 
-Okay... Next I want to crate output the results of this abomination in an excel file. For that I used the xlswriter library.
+Okay... Next I want to create output the results of this abomination in an excel file. For that I used the xlswriter library.
 
 ```python
 #Create an Excel File.
@@ -510,14 +510,14 @@ path_var = StringVar()
 search_var = StringVar()
 
 # Put an Image in the GUI, can also be background of a button
-my_img = ImageTk.PhotoImage(Image.open(r"C:\Users\User\Desktop\python\APM\200428_giz_GV-Inklusion_Grafik_06_Keyvisual_Keyvisual.jpg"))
+my_img = ImageTk.PhotoImage(Image.open(r"path_to_an_Image"))
 myLabel_img = Label(root, image = my_img)
 myLabel_img.place(x = 0 , y = 0)
 
 
 
-explanation = Label(root, text ="""This Tool analyses GIZ Offers \n by search term and outputs and Excel File. \n 
-First you need to enter the Path to the GIZ Offers \n Second please enter a search term and press "Click to start. \n
+explanation = Label(root, text ="""This Tool analyses Offers \n by search term and outputs and Excel File. \n 
+First you need to enter the Path to the Offers \n Second please enter a search term and press "Click to start. \n
 Lastly Press "Click to Create Excel File". The file will appear in the same directory as this programm. \n Please follow the instructions in the manual""")
 
 path_entry = Entry(root, textvariable = path_var, width= 50)
@@ -530,14 +530,14 @@ search_term_label = Label(root, text ="Search Term")
 
 
 my_Button_docx = Button(root, text = "Click to convert doc to docx. Needs MS Word installed!", command= save_as_docx)
-myButton = Button(root, text = """Click to start. The program will freeze while processing. \n Please wait until it unfreezes! It might take a time so grab a coffee.""", command = lambda: [program(), enable()])
+myButton = Button(root, text = """Click to start. The program will look like freezeing while processing. \n Please wait until it unfreezes! It might take a time so grab a coffee.""", command = lambda: [program(), enable()])
 
   
 #Button(root, text = 'Start', command = bar).pack(pady = 10)
 
 my_Button_out = Button(root, text ="Click to Create an Excel File", command = excel_creator, state = "disabled")
 
-my_Button_numbers_pfb = Button(root, text ="Click here to create an analysis \n that counts instances of the search term \n", command = pfb_numbers)
+my_Button_numbers_pfb = Button(root, text ="Click here to create an analysis \n that counts instances of the search term \n", command = pfb_numbers) #In the original script I added another function that would do this task. 
 my_Button_numbers_pfb_out= Button(root, text ="Click to Create Excel File for PfB Numbers",
                                  command = pfb_numbers_xls)
 
@@ -568,7 +568,7 @@ my_Button_Scanned_analysis = Button(root, text="Click to analyse scanned PDFs. W
 
 myLabel_PFB = Label(root, text ="The application can also just count the instances of the search term \n and output an excel file containing the document name and the number of search teram instances for each.")
 
-myLabel_end = Label(root, text ="This application was programmed by a noob and is very unstable. \n Please reach out to mathis.nachbauer@giz.de if you have issues.")
+myLabel_end = Label(root, text ="This application was programmed by a noob and is very unstable. \n Please reach out to "email adresse" if you have issues.")
 
 
 explanation.grid(row = 1, column = 0, columnspan =3, padx = 10, pady = 10)
