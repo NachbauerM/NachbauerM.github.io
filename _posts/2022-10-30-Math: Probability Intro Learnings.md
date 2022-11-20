@@ -6,7 +6,7 @@ As expected, I found that I still lack a deeper mathematical understanding or in
 Despite that beeing suboptimal I still want to collect the mechanics/ heuristics I developed and hope to get a deeper understanding later on.
 
 ## How to structure a probability problem?
-1.	Describe all possible outcomes, the sample space ($\Omega$).
+1.	Describe all possible outcomes, the sample space $\Omega$.
 2.	Specify probability laws to use (describe beliefs about the outcomes of an experiment, e.g. independence, disjointness etc.)
 a.	Addition rule (often when the word “or” is used in the question). Add probabilities of single Events or Elements if they are disjoint and part of one sample space (together not bigger then 1).
 b.	Multiplication rule (often when the word “and” is used in the question). Multiply probabilities of Events if they are independent.
@@ -16,9 +16,9 @@ d.	…
 4.	Calculate.
 
 ### Discrete Uniform rule
-$\Omega$ consists of a discrete amount of equally likely elements, then P(element) = 1/n. If an event K exists of K elements, then: K* 1/n or |K|/|$\Omega$|. Here we need counting rules to find |K| and |$\Omega$|.
+$\Omega$ consists of a discrete amount of equally likely elements, then P(element) = 1/n. If an event K exists of K elements, then: K* 1/n or |K|/$|\Omega|$. Here we need counting rules to find |K| and $|\Omega|$.
 1.	Given n objects, the number of ways of ordering them is n!
-2.	Number of distinct ways of choosing k objects from n: $n \choose k = \frac {n!}{k!(n-k)!}$. (n choose k)
+2.	Number of distinct ways of choosing k objects from n: ${n \choose k}= \frac {n!}{k!(n-k)!}$. (n choose k)
 
 ### Multiplication Rule
 1.	If Events are independent: P(A and B) = P(A) x P(B)
