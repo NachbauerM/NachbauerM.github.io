@@ -1,4 +1,4 @@
-# Programming: First Program (work in progress)
+# Programming: First Program
 
 I have tried to learn some basic coding using the excellent ["Python for everybody"](https://www.py4e.com/) online course and book.
 
