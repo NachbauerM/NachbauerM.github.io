@@ -1,4 +1,4 @@
-# Learnings after doing the Probability Homeworks (in progress)
+# Math: Learnings after doing the Probability Homeworks (in progress)
 
 In this post I want to collect some of my learnings from doing the homeworks on the first chapter of the Book "A first course in probability and statistics" (see last math post).
 
