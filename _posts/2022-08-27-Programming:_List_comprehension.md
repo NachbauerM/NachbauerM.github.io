@@ -1,4 +1,4 @@
-# Python: List comprehension
+# Programming: Python_List comprehension
 
 I try to do one cateogry (6 or 7) Kata on [Codwars](https://www.codewars.com/) to start a working day. For some reason doing this makes me a little more focused for the first "official" task and also it can be a very nice feeling of success early in the day.
 
@@ -6,8 +6,9 @@ Doing those easier Katas, I found that many high ranked solutions are using list
 
 ## Identation in a for loop:
 ```python
-multiplication_table = [[j*i for j in range(1,4)] for i in range(1,4)] #This creates lists inside a list, multiplying j(1-3) first with i = 1, then i=2 ... Like with indented for-loop.
-print(multiplication_table)
+multiplication_table = [[j*i for j in range(1,4)] for i in range(1,4)] 
+#This creates lists inside a list, multiplying j(1-3) first with i = 1, then i=2 ... Like with indented for-loop.
+multiplication_table
 ```
 
 ## Using a fucntion inside a list comprehension:
@@ -25,7 +26,7 @@ s = "wwerhawhngaawejasdfjiasdfgwßehasudladhfasgfkwe"
 x = "".join(["1" if x in ("a","e", "i", "o", "u") else "0" for x in s.lower()])
 #In list comprehension the logic is sligthly different than usually: First what happens e.g. "1" 
 #then the if and else statement. The join mehtod takes a iterable and joins it togehter.
-print(x)
+x
 ```
 
 ## Get every second element of a list:
