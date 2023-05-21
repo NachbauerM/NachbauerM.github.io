@@ -1,6 +1,6 @@
 # Interesting:_Focus (Huberman Podcast)
 
-A few practical hints to improve focus by the Huberman Lab Podcast:
+A few practical hints to improve focus (Huberman Lab Podcast):
 
 1. Enough Sleep 
 2. Binaural Beats 40 Hz, or white/ brown noise.
