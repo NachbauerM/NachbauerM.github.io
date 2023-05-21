@@ -1,4 +1,4 @@
-# Interesting: Interesting:_Fermi_Calculation
+# Interesting:_Fermi_Calculation
 
 My understanding is that a Fermi Calculation is a rough first approximation of a problem,
 where I dont have any data or much prior knowledge and have to make justified guesses about variables and
