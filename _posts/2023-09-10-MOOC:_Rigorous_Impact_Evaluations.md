@@ -6,7 +6,8 @@ Rigorous Impact Evaluations (RIE) have become a trendy topic in development coop
 Each policy challenge has many potential solutions, but limited funding and time. How do we know if a chosen program really works.
 
 Definition Impact: Difference in outcome after an intervention compared to a counterfactual.
- 
+![image](https://github.com/NachbauerM/NachbauerM.github.io/assets/72666362/1620fdb0-ca60-44f7-afb7-d89753e0faa5)
+
 The problem: Counterfactuals are impossible to get. 
 Solution: Mimic counterfactual via an RIE.
 
@@ -25,17 +26,27 @@ Example Evaluations can be found here: Evaluations | The Abdul Latif Jameel Pove
 
 ## Theory of Change and Measurement
 KEY VOCABULARY
-Theory of Change	Describes how and why a desired change is expected to happen. The theory of change identifies the preconditions, pathways, and interventions necessary for success.
-Hypothesis1
-A prediction about the effects of a given intervention, often derived from a theory of change. We can think of this as a claim to be tested. Hypotheses are intended to be made prior to the implementation of the intervention. E.g., Giving textbooks to students will improve student learning.
-Assumption	A precondition that underpins a theory of change or model. An assumption cannot be directly observed or verified, e.g., When students read textbooks, they learn from them.
-Input	An activity carried out as part of a program or intervention, e.g., Textbooks are given to schools.
-Output	A step in the planned implementation of a program or intervention – a.k.a. a direct result in response to the inputs, e.g., Students receive textbooks through schools.
-Outcome	A change or impact caused by the program that is being evaluated, e.g., Increase in student learning levels.
-Intermediate Outcomes	Observable changes or impacts caused by the program that are not the ultimate outcome of interest, but necessary along the way to achieving a final outcome, e.g., Increase in students who have passing test scores for the semester.
-Final Outcomes	Changes or impacts that are of ultimate interest to researchers and/or program implementers; these are often the overall goals of a program, e.g., Increase in high school graduation rates.
-Indicator	An observable metric used to measure an outcome, e.g., Student test scores.
-Instrument	The tool used to measure an indicator, e.g., A set of test questions
+Theory of Change: Describes how and why a desired change is expected to happen. The theory of change identifies the preconditions, pathways, and interventions necessary for success.
+
+Hypothesis: A prediction about the effects of a given intervention, often derived from a theory of change. We can think of this as a claim to be tested. 
+
+Hypotheses: are intended to be made prior to the implementation of the intervention. E.g., Giving textbooks to students will improve student learning.
+
+Assumption: A precondition that underpins a theory of change or model. An assumption cannot be directly observed or verified, e.g., When students read textbooks, they learn from them.
+
+Input:	An activity carried out as part of a program or intervention, e.g., Textbooks are given to schools.
+
+Output:	A step in the planned implementation of a program or intervention – a.k.a. a direct result in response to the inputs, e.g., Students receive textbooks through schools.
+
+Outcome: A change or impact caused by the program that is being evaluated, e.g., Increase in student learning levels.
+
+Intermediate Outcomes:	Observable changes or impacts caused by the program that are not the ultimate outcome of interest, but necessary along the way to achieving a final outcome, e.g., Increase in students who have passing test scores for the semester.
+
+Final Outcomes:	Changes or impacts that are of ultimate interest to researchers and/or program implementers; these are often the overall goals of a program, e.g., Increase in high school graduation rates.
+
+Indicator: An observable metric used to measure an outcome, e.g., Student test scores.
+
+Instrument:The tool used to measure an indicator, e.g., A set of test questions
 
 Interesting: implicit association tests IAT (online test). Puts groups of categories together and check associations (we are faster if associations fit our intuitions). Tests implicit discrimination.
 
@@ -46,18 +57,22 @@ Different Biases that influence measurements:
 •	Frame around a question is important (Framing effects).
 •	Recall bias (consistency bias): Hard to recall past information correctly.
 •	Anchoring bias (dont add anchors in questions)
+
 Precision (Reliability): How precise is my measurement? Is that a good way to get the data ? How consistent and precise is the measure? In Practice:
 - Length, fatigue
 - Ambiguous wording
 - Answer choices (open/ closed, Likert scale e.g. 0-7, ranked)
+- 
 General Noise: surveyor training, poor translation, data entry,
+
 Hard to measure:
 -	Things people don’t want to talk about (sex, mental health, violence; anonymize, ask third person questions, safe atmosphere)
 -	Things people don’t know well. (estimates esp. across time see recall error; integrate consistency checks)
 -	Things that are not directly observable
 -	Things that are best directly observed.
 -	…
-Ressources: Survey design, Repository of measurement and survey design resources 
+Ressources: Survey design, Repository of measurement and survey design resources
+
 ## Why we randomize?
 Before-after-Analysis doesn’t work. Outcomes might have been due to other influences. Only the difference between the counterfactual and the measured outcome is the impact.
 
@@ -74,9 +89,9 @@ Key steps for an RCT:
 7.	Estimate the program impact by comparing the mean outcomes of control and treatment group.
 8.	Assess if the program impacts are significant.
 
-Omitted Variable Bias	Statistical bias that occurs when relevant (and often unobservable) variables/ characteristics are left out of the analysis. When these variables are correlated with both the primary outcome and a variable of interest (e.g., participation in an intervention), their omission can lead to incorrectly attributing the measured impact solely to the program. For example, omitting socioeconomic status, which is correlated with test scores, could lead to overestimating the impact of a tutoring intervention on a group of wealthy students
-Selection Bias
-	Selection bias occurs when individuals who receive or opt into the program are systematically different from those who do not. Consider an elective after school tutoring program. Is it effective at raising children’s exam scores? If we compare those who take up the tutoring program to those who don’t, we will get a biased estimate of the effect of the tutoring program, because those who chose to take it up are likely different from those who don’t. The two groups likely are not balanced (for example, those who took it up may be more motivated, or they may have lower grades). Randomization minimizes selection bias because it breaks the link between characteristics of the individual and their treatment status. Selection bias can occur in other ways in a randomized evaluation. For example, participants can choose to take up a treatment or refuse it, and participants can choose to leave the study (i.e., attrit/attrition).
+Omitted Variable Bias:	Statistical bias that occurs when relevant (and often unobservable) variables/ characteristics are left out of the analysis. When these variables are correlated with both the primary outcome and a variable of interest (e.g., participation in an intervention), their omission can lead to incorrectly attributing the measured impact solely to the program. For example, omitting socioeconomic status, which is correlated with test scores, could lead to overestimating the impact of a tutoring intervention on a group of wealthy students.
+
+Selection Bias: Selection bias occurs when individuals who receive or opt into the program are systematically different from those who do not. Consider an elective after school tutoring program. Is it effective at raising children’s exam scores? If we compare those who take up the tutoring program to those who don’t, we will get a biased estimate of the effect of the tutoring program, because those who chose to take it up are likely different from those who don’t. The two groups likely are not balanced (for example, those who took it up may be more motivated, or they may have lower grades). Randomization minimizes selection bias because it breaks the link between characteristics of the individual and their treatment status. Selection bias can occur in other ways in a randomized evaluation. For example, participants can choose to take up a treatment or refuse it, and participants can choose to leave the study (i.e., attrit/attrition).
 
 
 
@@ -132,17 +147,17 @@ Stratification: dividing units in your sample into different subgroups based on 
 
 ## Statistics Review (Sampling and Sample dice)
 Basic question: How confident can we be in our results?
-## Law of large numbers: If we increase the number of independent times we do an action, most averages we get will get closer to the true average (expected average). E.g. rolling 100 dice the average will be very close to the true average of 3.5
-## Central limit theorem: describes the behavior of the distribution of sample means. It states that if you have a population with mean μ and standard deviation σ and take sufficiently large random samples from the population with replacement, then the distribution of the sample means will be approximately normally distributed.
+## Law of large numbers: 
+If we increase the number of independent times we do an action, most averages we get will get closer to the true average (expected average). E.g. rolling 100 dice the average will be very close to the true average of 3.5
+## Central limit theorem: 
+describes the behavior of the distribution of sample means. It states that if you have a population with mean μ and standard deviation σ and take sufficiently large random samples from the population with replacement, then the distribution of the sample means will be approximately normally distributed.
 For instance, let’s say you roll the two dice 10 times and record the sum for each roll. You then calculate the average of these 10 sums. This is one sample mean. If you repeat this process many times (e.g., 1000 times), calculating a new sample mean each time, then the distribution of these 1000 sample means will be approximately normal.
 If we take a sample out of the underlying population and this sample is big enough, the average is likely to be close to the true average. If I take multiple samples, their averages will be normally distributed around the true average.
 
+![image](https://github.com/NachbauerM/NachbauerM.github.io/assets/72666362/03dcdd32-772e-43d8-9cf9-6d26793f47b1)
+
+
 Each item is the average test score of the 10 students drawn.
-
-
-
-
-
 
 
 
@@ -153,9 +168,9 @@ Precision: low variance results (Sample size increases precision, law of large n
 It is used to estimate the variability of the statistic if the sampling process were repeated many times. The standard error is estimated by dividing the standard deviation of the sample by the square root of the sample size. (This means since the sample size is square rooted the decrease in the standard error are not linear with increasing the sample size).
 The standard error gives us an idea of how much variability we can expect in our sample means if we were to repeat this process many times. It is a useful tool for understanding how well our sample represents the population and for making inferences about population means using sample means.
 
-##Standard deviation
+## Standard deviation
 Measure on how dispersed the population is around the mean. 1 standard deviation away means (mean + and – the standard deviation e.g. mean is 10, STD = 5; 1 standard deviation away is range between 5-15).
-# Statistical Significance
+
 ## Hypothesis testing
 Presumption: start with the “null hypothesis” (assume no effect of a program, represented by the control group). Can we now present enough proof that our observations is sufficiently unlikely if we had no effect to happen from chance? 
 Definition: Statistical Significance = if the probability of getting our result (impact) by random chance is less than 5%, we say something is statistically significant (we reject the null hypothesis).
@@ -168,10 +183,16 @@ Power: Statistical power is the likelihood that a statistical test will detect a
 Statistical significant if we can reject null hypothesis with 95% probability. 
 In the picture: blue is null hypothesis, red is the results if we did it very often. Statistical significant only if probability that the effect is part of the null hypothesis graphs is less then 5 percent (cutoff). Power is the part (%) of the red curve that is beyond the cut of)
 
+![image](https://github.com/NachbauerM/NachbauerM.github.io/assets/72666362/bc8de21f-95ec-4633-9212-81d9282d2b2f)
+![image](https://github.com/NachbauerM/NachbauerM.github.io/assets/72666362/03e437fd-3692-4d04-a714-7e55aa05a68e)
+
 
 Increasing the Power: 
 The bigger the effect (effect size) the more power (more away from the null hypothesis).
 Or if I increase sample (the bell curve will get less wide and make the bell curve of the effect and the null hypothesis less overlap). Clustering (-	Low intra-cluster correlation (Rho) necessary), Proportion of sample in Treatment vs. Control can increase the power.
+
+![image](https://github.com/NachbauerM/NachbauerM.github.io/assets/72666362/c148ad5d-7f9f-4aa3-8bcb-cba3223b2123)
+
 
 Always ask what the probability is of getting a certain value if the null hypothesis was true. (basis hypothesis testing).
 
@@ -197,9 +218,14 @@ Do a power calculation before the study is done:
 -	Determining the sample size that ensures a power of 80% for a given set of parameters, including the minimum effect size you expect the program to have
 -	Determining the minimum effect size required to achieve 80% power for a given set of parameters, including the sample size. This is called the minimum detectable effect (MDE ).
 Formula (there are calculators for that online Power Calculator (shinyapps.io)):
+
+![image](https://github.com/NachbauerM/NachbauerM.github.io/assets/72666362/21c60e8e-b874-4f32-a77e-74467819207c)
+
+
  
 The paradox of power calculations is that some parameters—e.g., the effect size and the variance of the outcome of interest—will not become known until the experiment has been conducted.
 In this regard, power calculations involve making careful assumptions about certain outcomes, such as the effect you realistically expect your program may have or the variation you expect in the outcome variable. These assumptions are often informed by real data, such as from previous studies. Regardless of the source of the data you use to inform your power calculations, it is important to justify your assumptions, which requires carefully thinking through the details of your program and context.
+
 Consider the following parameters and determine what values are reasonable for each of them:
 -	Effect size: The smallest effect size that is expected and/or is policy-relevant
 -	Take-up rate: The proportion of participants in the treatment group who take up the intervention
@@ -211,18 +237,25 @@ Consider the following parameters and determine what values are reasonable for e
 As a starting point, I can calculate power for a “best case” and a “worst case” scenario. If the required sample size for the “best case” scenario is much above what I think is reasonable to recruit, I might want to consider whether an RCT is the best method of evaluation. If, on the other hand, the required sample size is reasonable, I can conduct sensitivity analyses, which involve testing how power changes with changes to critical assumptions.
 
 The minimum detectable effect size entered into your power calculations should be the minimum expected effect size for those taking up the program adjusted by the take-up rate. For example, if you expect the effect size to be 10 percentage points among the people who take up the program, but you expect that only 80% of the treatment group will take up the program, the effective effect size will be 10 percentage points times 0.8 = 8 percentage points. Thus, the study should be able to detect a minimum effect of 8 percentage points, meaning that the MDE entered into the power calculations should be equal to or smaller than 0.8. Because the effect size involved in power calculations is scaled by the take-up rate, improving the take-up rate (as well as ensuring that people in the comparison group do not take up the treatment) is one of the most effective ways of improving power.
+
 Vocabulary:
-Type I error	A false positive: falsely concluding that the program/treatment had an effect when it actually did not.
+Type I error: A false positive: falsely concluding that the program/treatment had an effect when it actually did not.
 Significance level (α)	The maximal probability of committing a type I error we want to allow. Statistical tests are typically performed at significance levels of 1%, 5%, or sometimes 10% to determine whether one group (e.g., the treatment group) is different from another group (e.g., the comparison group) on certain outcome indicators of interest (for instance, test scores in an education program). The significance level is typically denoted by alpha (α).
-Type II error	A false negative: The probability of falsely concluding that there is no treatment effect.
+
+Type II error:	A false negative: The probability of falsely concluding that there is no treatment effect.
 Power	The likelihood of avoiding a type II error, that is, the probability that your statistical test will distinguish the program effect (correctly) from zero when the program/treatment actually has an effect.
 Unit of randomization	The level of observation (e.g., individual, household, school, village) at which treatment and comparison groups are randomly assigned.
-Sample size (N)	The total number of units in the study, in both treatment and comparison groups. In a clustered randomization, the sample size is the total number of units across clusters. The power increases with the sample size with everything else remaining constant.
+
+Sample size (N): The total number of units in the study, in both treatment and comparison groups. In a clustered randomization, the sample size is the total number of units across clusters. The power increases with the sample size with everything else remaining constant.
 Minimum Detectable Effect (MDE)	The effect size is the difference between the average of the outcome of interest in the treatment and control groups. The MDE is the minimum effect size that can be detected with given statistical power (probability of correct positive, e.g., 80%), statistical significance (probability of a false positive, e.g., 5%), and sample size N. All else equal, the smaller the effect, the larger the sample size required to detect that effect.
-Variance/Standard deviation	This is the measure of the spread of a sample or population for a particular indicator. Mathematically, the standard deviation is the square root of the variance. Given a sample size and effect, the power of the study decreases if the outcome variable has a higher variance.
-Cluster	The unit level at which a sample is randomized (e.g., school), each of which typically contains several units of observation that are measured (e.g., students). Generally, observations within the same unit of randomization that are potentially correlated with each other should be clustered, and the required sample size should be calculated with an adjustment for clustering.
-Intra-cluster correlation coefficient (ICC)	The ICC describes how similar or correlated units within a same class or cluster are. For instance, if your experiment is clustered at the school level and the outcome of interest is test scores, the ICC would be the level of correlation in test scores for children in a given school relative to the overall distribution of test scores of students in all schools. The ICC is often denoted by rho (ρ).
-Treatment allocation	The proportion of the sample assigned to the treatment group. Power is typically maximized with an equal split between treatment arms
+
+Variance/Standard deviation:	This is the measure of the spread of a sample or population for a particular indicator. Mathematically, the standard deviation is the square root of the variance. Given a sample size and effect, the power of the study decreases if the outcome variable has a higher variance.
+
+Cluster:	The unit level at which a sample is randomized (e.g., school), each of which typically contains several units of observation that are measured (e.g., students). Generally, observations within the same unit of randomization that are potentially correlated with each other should be clustered, and the required sample size should be calculated with an adjustment for clustering.
+
+Intra-cluster correlation coefficient (ICC):	The ICC describes how similar or correlated units within a same class or cluster are. For instance, if your experiment is clustered at the school level and the outcome of interest is test scores, the ICC would be the level of correlation in test scores for children in a given school relative to the overall distribution of test scores of students in all schools. The ICC is often denoted by rho (ρ).
+
+Treatment allocation:	The proportion of the sample assigned to the treatment group. Power is typically maximized with an equal split between treatment arms
 
 ## Threats and Analysis: What can go wrong?
 
@@ -252,7 +285,7 @@ Treatment on the treated (TOT): tells us about the effect on those who took up t
 For that to work we need a considerable impact. P [treated|T]-should be very high and P [treated|C] should be very low.
 
 ### Can we look at various outcomes:
-The more outcomes we look at, the higher the chance to find a least one significantly affected by the program (by chance) => Pre-specify outcomes of interest., report results of all measured outcomes.
+The more outcomes we look at, the higher the chance to find a least one significantly affected by the program (by chance) => Pre-specify outcomes of interest, report results of all measured outcomes.
 
 ### Include covariates.
 Control for gender, age etc…. May explain variation. But can also be used to manufacture a result (which came by chance). Always report raw differences as well. Define it advance what covariates to use.
@@ -262,24 +295,30 @@ Being in an evaluation can change behavior: in control and/or treatment.: minimi
 Generalizability: representativeness of the study sample/ can it be scaled? Sensitivity of results (would a similar program have the same or bigger impact?). This is an issue with all evaluation methods though.
 
 Key Vocabulary
-Treatment assignment and treatment status	An individual’s treatment assignment is the group they were randomly assigned to, either a treatment or comparison group. An individual’s treatment status is what actually happened to them, whether they were treated or not, and the kind of treatment. 
+Treatment assignment and treatment status: An individual’s treatment assignment is the group they were randomly assigned to, either a treatment or comparison group. An individual’s treatment status is what actually happened to them, whether they were treated or not, and the kind of treatment. 
 Balance	Randomization creates two groups that on average look very similar. This can be tested for observable characteristics by collecting some baseline demographic information—such as age, gender, years of education, income, etc.—and comparing the average value of these characteristics in the treatment group to the average value of them in the comparison group. Even when randomization is done correctly, some of these average values may differ due to random chance. We say the comparison and treatment groups balance if they have similar average values for observable baseline characteristics.
-Selection Bias	Selection bias occurs when individuals who receive or opt into the program are systematically different from those who do not. Consider an elective after-school tutoring program. Is it effective at raising children’s exam scores? If we compare those who take up the tutoring program to those who don’t, we will get a biased estimate of the effect of the tutoring program, because those who chose to take it up are likely different from those who don’t. The two groups likely are not balanced on key characteristics (for example, those who took it up may be more motivated, or they may have lower grades). Randomization minimizes selection bias because it breaks the link between the characteristics of the individual and their treatment status. Selection bias can occur in other ways in a randomized evaluation. For example:
+
+Selection Bias:	Selection bias occurs when individuals who receive or opt into the program are systematically different from those who do not. Consider an elective after-school tutoring program. Is it effective at raising children’s exam scores? If we compare those who take up the tutoring program to those who don’t, we will get a biased estimate of the effect of the tutoring program, because those who chose to take it up are likely different from those who don’t. The two groups likely are not balanced on key characteristics (for example, those who took it up may be more motivated, or they may have lower grades). Randomization minimizes selection bias because it breaks the link between the characteristics of the individual and their treatment status. Selection bias can occur in other ways in a randomized evaluation. For example:
 •	Participants can choose to take up a treatment or refuse it
 •	Participants can choose to leave the study
-Attrition Bias	Attrition bias is a type of selection bias that occurs when people leave the study. This can bias the estimate of the treatment impact in two ways:
+
+Attrition Bias:	Attrition bias is a type of selection bias that occurs when people leave the study. This can bias the estimate of the treatment impact in two ways:
 1.	It may be the case that people with certain characteristics (say, those with the highest levels of education) in both the treatment and comparison groups leave. This means your study population looks less like the general population. The treatment effect you estimate might not represent the true effect for the general population.
 2.	The reasons people leave may be correlated with the treatment. Suppose that students who have the most resources at home and are in the treatment group improve their performance and test into elite private schools, leaving your study sample. Then comparing treatment and comparison groups after the program would underestimate the impact of the program, because the students with the highest grades are ‘missing’ from the treatment group.
-Spillovers	Spillovers mean that the outcomes of untreated units are indirectly affected by the treatment given to others. Spillovers can be positive or negative.
-Compliance	When a unit's treatment assignment (assigned to treatment or comparison group) matches their treatment status (took up or did not take up the treatment), we say they have complied.
+
+Spillovers:	Spillovers mean that the outcomes of untreated units are indirectly affected by the treatment given to others. Spillovers can be positive or negative.
+
+Compliance:	When a unit's treatment assignment (assigned to treatment or comparison group) matches their treatment status (took up or did not take up the treatment), we say they have complied.
 Any study sample can be split into three distinct groups:
 •	Compliers:  This group of people will follow their assignment status. If they are assigned to the treatment group, they will take up the treatment; if they are assigned to the comparison group they will not take up the program.
 •	Always-takers: This group of people will always take up the program, regardless of assignment status.
 •	Never-takers: This group of people will never take up the program, regardless of assignment status.
 When respondents do not comply with their treatment assignment, the study has partial compliance. In the treatment group, the people who do not comply are never-takers, while in the comparison group, those who do not comply are always-takers. We collectively refer to those who do not comply as non-compliers and the action of not complying with treatment status as non-compliance.
 Note that when there is two-sided non-compliance (i.e., non-compliance in both the treatment and comparison group), we have to make the monotonicity assumption, which states that assignment to treatment does not dissuade someone from taking up the treatment (in which case, we would classify them as “defiers”).
-Intention-to-Treat (ITT)	The ITT is a method for estimating the effect of the program where you compare the average outcomes of those assigned to the treatment group to the average outcomes of those assigned to the comparison group, regardless of whether individuals within those groups have actually received the treatment. The ITT measures the impact of delivering a program in the real world, where some people don’t take up the program when offered it, and others take up the program even when they are not expressly encouraged to do so.
-Local Average Treatment Effect (LATE)	The LATE is a method for estimating the effect of the program on those who complied with their treatment status. The LATE divides the ITT by the difference in the proportion of the treatment group who took up the program and the proportion of the comparison group who took up the program. Recall that the ITT compares the average outcome of the treatment group to that of the comparison group. This means that under partial compliance, the average changes we measure in the treatment group will be diluted by changes in outcomes among those who did not take it up. Intuitively, you should think of the LATE as a way of adjusting the ITT to reflect that not all of those assigned to treatment were treated while some who were assigned to the comparison group were treated. LATE is sometimes referred to as Complier Average Treatment Effect (CACE). 
+
+Intention-to-Treat (ITT):	The ITT is a method for estimating the effect of the program where you compare the average outcomes of those assigned to the treatment group to the average outcomes of those assigned to the comparison group, regardless of whether individuals within those groups have actually received the treatment. The ITT measures the impact of delivering a program in the real world, where some people don’t take up the program when offered it, and others take up the program even when they are not expressly encouraged to do so.
+
+Local Average Treatment Effect (LATE):	The LATE is a method for estimating the effect of the program on those who complied with their treatment status. The LATE divides the ITT by the difference in the proportion of the treatment group who took up the program and the proportion of the comparison group who took up the program. Recall that the ITT compares the average outcome of the treatment group to that of the comparison group. This means that under partial compliance, the average changes we measure in the treatment group will be diluted by changes in outcomes among those who did not take it up. Intuitively, you should think of the LATE as a way of adjusting the ITT to reflect that not all of those assigned to treatment were treated while some who were assigned to the comparison group were treated. LATE is sometimes referred to as Complier Average Treatment Effect (CACE). 
 
 ## Ethics
 Ethical rules (framework) for research with human subjects:
